@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Font awesome link  -->
+    <script src="https://kit.fontawesome.com/991071fc4a.js" crossorigin="anonymous"></script>
+
+    <title>Contact | Kouah Mohammed Aymen</title>
+</head>
+<body>
+    <header class="header-inner">
+        <div class="container">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html" class="" data-text="Home">Home</a></li>
+                    <li><a href="about.html" class="" data-text="About">About</a></li>
+                    <li><a href="projects.html" class="" data-text="Projects">Projects</a></li>
+                    <li><a href="contact.html" class="current" data-text="Contact">Contact</a></li>
+                    <li><a href="photos.html" class="" data-text="Photos">Photos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-form">
+        <div class="container">
+            <h2>Contact me</h2>
+            <div class="underline"></div>
+            <p class="header-text">
+                Here is how you can reach me
+            </p>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="form">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder='Email adress'>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+                    <textarea name="message" id="message" placeholder="Message (and other contact means if possible)"></textarea>
+                </div>
+                <div class="flex-container">
+                    <button type="submit" class="btn-dark">Submit</button>
+                </div> 
+            </form>
+        </div>
+    </section>
+
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-element">
+                    <i class="fas fa-at fa-5x"></i>
+                    <h3>Email</h3>
+                    <p class="header-text">jm_kouah@esi.dz</p>
+                </div>
+                <div class="grid-element">
+                    <i class="fas fa-phone-alt fa-5x"></i>
+                    <h3>Phone</h3>
+                    <p class="header-text">(+213)541073018</p>
+                </div>
+                <div class="grid-element">
+                    <i class="fab fa-github fa-5x"></i>
+                    <h3>Github</h3>
+                    <p class="header-text">aymenkouah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="paypal-container">
+        <div class="container bg">
+            <div class="paypal">
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-4ad840d9-d289-485f-875f-deeaae7d18a8"></div>
+            </div>
+    
+        </div>
+    </div>
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright &copy; 2020. All rights reserved</p>
+            <div class="socials">
+                <a href="https://twitter.com/aymen_kouah" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/intmoha8" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/intmoha8/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/aymenkouah" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:jm_kouah@esi.dz" alt="jm_kouah@esi.dz" target="_blank"><i class="fab fa-google"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
