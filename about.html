@@ -64,40 +64,86 @@
             <h2>Technical Skills</h2>
         <div class="underline"></div>
         <div class="skill-set">
-            <h4>HTML&CSS</h4>
+            <h4 clicked="false" subs=".htmlcss-more">HTML&CSS</h4>
             <div class="progress">
                 <div class="progress-level" value="80%;"></div>
             </div>
 
-            <h4>JavaScript</h4>
+            <div class="more-skills htmlcss-more">
+                <div class="more-skills-container">
+                    <h5>Pure HTML5 & CSS3</h5>
+                    <div class="progress" id="scss">
+                        <div class="progress-level" value="80%;"></div>
+                    </div>
+
+                    <h5>SCSS</h5>
+                    <div class="progress" id="scss" >
+                        <div class="progress-level" value="70%;"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <h4 clicked="false" subs=".JS-more">JavaScript</h4>
             <div class="progress">
                 <div class="progress-level" value="20%;"></div>
             </div>
 
-            <h4>Python</h4>
+            <div class="more-skills JS-more">
+                <div class="more-skills-container">
+                    <h5>Vanilla JavaScript</h5>
+                    <div class="progress" id="scss">
+                        <div class="progress-level" value="40%;"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <h4 clicked="false" subs=".python-more">Python</h4>
             <div class="progress">
                 <div class="progress-level" value="45%;"></div>
             </div>
+            <div class="hide more-skills python-more">
+                <div class="more-skills-container">
+                    <h5>Pure Python</h5>
+                    <div class="progress" id="scss">
+                        <div class="progress-level" value="60%;"></div>
+                    </div>
 
-            <h4>After Effects</h4>
+                    <h5>Tkinter</h5>
+                    <div class="progress" id="scss">
+                        <div class="progress-level" value="40%;"></div>
+                    </div>
+
+                    <h5>Pygame</h5>
+                    <div class="progress" id="scss">
+                        <div class="progress-level" value="50%;"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <h4 clicked="false" subs=".AE-more">After Effects</h4>
             <div class="progress">
                 <div class="progress-level" value="50%;"></div>
             </div>
+            <div class="hide more-skills AE-more">
+            </div>
 
-            <h4>Illustrator</h4>
+            <h4 clicked="false" subs=".AI-more">Illustrator</h4>
             <div class="progress">
                 <div class="progress-level" value="40%;"></div>
             </div>
+            <div class="hide more-skills AI-more"></div>
 
-            <h4>Photoshop</h4>
+            <h4 clicked="false" subs=".PS-more">Photoshop</h4>
             <div class="progress">
                 <div class="progress-level" value="35%;"></div>
             </div>
-
-            <h4>SASS(scss)</h4>
-            <div class="progress">
-                <div class="progress-level" value="70%;"></div>
+            <div class="hide more-skills PS-more">
             </div>
+
         </div>
         </div>
     </section>
@@ -197,6 +243,7 @@
     </footer>
 
     <script src="./JS/progress-animation.js"></script>
+    <script src="./JS/subprogress.js"></script>
 
 </body>
 </html>

@@ -300,6 +300,8 @@ section {
   .skill h4 {
     color: #f4f4f4;
     font-size: 1.2rem; }
+  .skill h4:hover {
+    color: #ccc; }
   .skill .progress {
     width: 100%;
     overflow: hidden;
@@ -624,3 +626,42 @@ h5 {
 @media (max-width: 290px) {
   .footer .socials {
     display: none; } }
+
+@media (max-height: 580px) {
+  .header-home {
+    height: 100vh; }
+    .header-home .header-content {
+      padding-top: 3rem; }
+      .header-home .header-content h1 {
+        font-size: 2rem; }
+  .image-collection .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .games .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); } }
+
+@media (max-height: 300px) {
+  .header-home {
+    height: 100vh; }
+    .header-home .header-content {
+      padding-top: 1rem; }
+      .header-home .header-content h1 {
+        font-size: 2rem; } }
+
+.more-skills {
+  display: block;
+  transition: height 1s;
+  pointer-events: none;
+  height: 0px;
+  border-left: 2px #ea5455 solid;
+  margin: 0 1rem 1rem 0rem;
+  place-items: center; }
+  .more-skills h5 {
+    text-align: left;
+    font-size: 1rem; }
+  .more-skills .more-skills-container {
+    opacity: 0;
+    transform: translateY(-1rem);
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; }
