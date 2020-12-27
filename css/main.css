@@ -158,7 +158,8 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(min(300px,80vw), 1fr));
   grid-template-rows: auto;
   grid-gap: 1.5rem;
-  margin-top: 3rem; }
+  margin-top: 3rem; 
+}
   .grid-container .grid-element {
     display: flex;
     flex-direction: column;
@@ -355,7 +356,9 @@ section {
   display: grid;
   grid-gap: 1rem;
   margin-bottom: 4rem;
-  grid-template-areas: 'name email' 'subject phone' 'message message'; }
+  grid-template-areas: 'name email'
+ 'subject phone'
+ 'message message'; }
   .form * {
     height: 30px;
     padding: 0 1rem;
@@ -609,7 +612,11 @@ h5 {
       border-radius: 50%;
       border: 2px solid white; }
   .form {
-    grid-template-areas: 'name' 'email' 'subject'  'phone' 'message '; } }
+    grid-template-areas: 'name'
+ 'email'
+ 'subject' 
+ 'phone'
+ 'message '; } }
 
 @media (max-width: 500px) {
   .project .about-me-text p {
